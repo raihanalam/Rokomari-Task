@@ -1,7 +1,8 @@
 $('.carousel').carousel({
-     interval: 1000
+     interval: 1000,
+     direction: 'right'
    });
-$('.carousel').carousel('cycle')
+
 
 
 var hoverMouse = function($el) {
