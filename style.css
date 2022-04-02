@@ -103,7 +103,7 @@ a,a:hover{
      border-right: 200px solid transparent;
 }
 .th-1{
-     background-image: url(/image/banner-1.jpg);
+     background-image: url(image/banner-1.jpg);
      background-size: 100%;
      background-repeat: no-repeat;
      height: 100vh;
@@ -260,6 +260,7 @@ a,a:hover{
      line-height: 29px;
      letter-spacing: 0em;
      text-align: center;
+     color: #FF4917;
      
 
 }
@@ -297,7 +298,7 @@ a,a:hover{
 }
 .company-service .service-bg{
      position: relative;
-     left: 70%;
+     left: 50%;
      bottom: 620px;
 }
 .video-section{
@@ -306,6 +307,62 @@ a,a:hover{
      background: rgba(22, 32, 41, 0.75);
 }
 
-@media all and (transform-3d), (-webkit-transform-3d) { .active.carousel-item-left, .carousel-item-prev:not(.carousel-item-right) { -webkit-transform: translateX(100%); transform: translateX(100%); } .active.carousel-item-right, .carousel-item-next:not(.carousel-item-left) { -webkit-transform: translateX(-100%); transform: translateX(-100%); } }
 
- 
+.footer{
+     height: 788px;
+     background: #14212A;
+}
+
+.footer .subscribe-sec{
+     width: 770px;
+     height: 208px;
+     border: 2px solid #34495C;
+     box-sizing: border-box;
+     padding: 30px;
+}
+.footer h2{
+     font-family: 'Assistant';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 45px;
+     line-height: 59px;
+     letter-spacing: -0.02em;
+
+     color: #FFFFFF;
+}
+.footer h3{
+     font-family: 'Assistant';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 25px;
+     line-height: 33px;
+
+     /* identical to box height */
+     letter-spacing: -0.02em;
+     color: #FFFFFF;
+}
+.footer p{
+     font-family: 'Assistant';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 32px;
+
+     color: #788B9A;
+}
+.footer .mail-input
+{
+	border: none;
+     background-color: transparent;
+	border-bottom: 2px solid #ddd;
+	line-height: 1.2rem;
+	transition: 0.3s;
+	margin-bottom: 40px;
+	width: 50%;
+}
+
+.footer .mail-input:focus {
+	outline: none;
+	border-bottom: 2px solid #333;
+	transition: 0.3s;
+}
