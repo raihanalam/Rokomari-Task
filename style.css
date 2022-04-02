@@ -306,5 +306,6 @@ a,a:hover{
      background: rgba(22, 32, 41, 0.75);
 }
 
+@media all and (transform-3d), (-webkit-transform-3d) { .active.carousel-item-left, .carousel-item-prev:not(.carousel-item-right) { -webkit-transform: translateX(100%); transform: translateX(100%); } .active.carousel-item-right, .carousel-item-next:not(.carousel-item-left) { -webkit-transform: translateX(-100%); transform: translateX(-100%); } }
 
  
